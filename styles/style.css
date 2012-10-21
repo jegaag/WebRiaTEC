@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 13px arial,helvetica,sans-serif;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+img {
+    border: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+#container {
+    width: 940px;
+    margin: auto;
+    background: #CCC;
+}
+
+
+
+#header {
+    padding: 20px;
+    background: blue;
+}
+#header .logo-uma {
+    float: right;
+}
+
+#nav ul {
+    list-style: none;
+}
+#nav ul li {
+    display: inline-block;
+    padding: 8px;
+    font-size: 16px;
+    background: pink;
+}
+#nav ul li.active {
+    background: red;
+}
+
+
+
+
+#sidebar {
+    float: right;
+    width: 300px;
+    padding-top: 20px;
+    background: yellow;
+}
+
+
+
+#main-content {
+    margin-right: 320px;
+    padding-top: 20px;
+}
+#main-content .block,
+#sidebar .block {
+    padding-bottom: 20px;
+}
+#main-content .block p,
+#main-content .block ul,
+#sidebar .block p,
+#sidebar .block ul {
+    padding-top: 10px;
+}
+#main-content .block ul,
+#sidebar .block ul,
+#footer .block ul {
+    margin-left: 20px;
+}
+#main-content .block ul ul {
+    padding-top: 0;
+}
+
+    
+
+
+
+
+
+#footer .block {
+    margin-right: 475px;
+}
+#footer .right {
+    float: right;
+}
+#footer .triptych img {
+    width: 220px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
