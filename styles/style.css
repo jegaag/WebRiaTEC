@@ -234,6 +234,11 @@ padding:9px;
 color: #0d4847;
 }
 
+#table_temario tr
+{
+height:26px;
+}
+
 #table_temario
 {
 width:80%;
