@@ -1,39 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//
-EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 	<title>Máster RIAtec: Tecnologías</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
 </head>
 
-<body id="container">
-	
-	<table>
+<body>
+
+	<div id="header">
+		<div id="header-content">
+            <div id="nav">
+                <ul>
+                    <!-- Hay que ponerlos todos los <li> seguidos porque si no algunos navegadores
+                         meten un espacio entre ellos -->
+                <li><a href="index.html" title="Información General">Página Inicial</a></li><li><a href="temario.html" title="Temario">Información Docente</a></li><li class="active"><a href="tecnologias.html" title="Tecnologías cubiertas en el Máster">Tecnologías</a></li><li><a href="empleo.html" title="Tendencias de Empleo">Empleo</a></li><li><a href="opiniones.html" title="Opiniones de Alumnos del Máster">Opiniones</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<div id="content">
+	<table class="wide">
 	<tr>
-		<td>
-		<div>
-			<h2>Tecnologías cubiertas en el máster</h2>
-					
-			<ul>
-			<li>Web: HTML5 / JavaScript/ jQuery / ASP .net MVC 4 / Knockout / Silverlight 5</li>
-			<li>Diseño: Expression Blend</li>
-			<li>Gestión de ciclo de vida: Team Foundation Server</li>
-			<li>Lenguajes: C#, Java, Javascript</li>
-			<li>Arquitecturas/IOC: MVVM Light Toolkit, MEF, Ninject</li>
-			<li>Testing: Visual Studio for Testers, NUnit, MbUnit, xUnit, Pex, Moq, Rhino Mocs</li>
-			<li>IDE: Visual Studio 2011, Eclipse, Expression Blend</li>
-			<li>Dispositivos móviles y tablets: Android, Windows Phone 7, Win RT</li>
-			<li>Bases de datos: SQL Server, My SQL</li>
-			<li>ORM: ADO. NET Entity Framework 4.x + LINQ</li>
-			<li>Cloud computing: Azure, Amazon</li>
-			</ul>
-		</div>
-		</td>
-		
-		<td>
-			<div>
+	<td>
+	<div id="sidebar">
+		<div class="block">
+			<aside class="techLogos">
 				<a href="http://aws.amazon.com/"><img src="logos/tecno/amazon.png"></a>
 				<a href="http://www.android.com/"><img src="logos/tecno/android.png"></a>
 				<a href="http://www.microsoft.com/windowsazure"><img src="logos/tecno/azure.png"></a>
@@ -44,7 +38,33 @@ EN"
 				<a href="http://www.java.com/"><img src="logos/tecno/JavaLogo.png"></a>
 				<a href="https://developer.mozilla.org/es/JavaScript"><img src="logos/tecno/javascript.png"></a>
 				<a href="http://jquery.com/"><img src="logos/tecno/jquery.png"></a>
-				<a href="http://code.google.com/p/moq"><img src="logos/tecno/moq.png"></a>
+				
+			</aside>
+		</div>
+	</div>
+	
+	<div id="main-content">
+		<div class="block">	
+			<h1>Tecnologías cubiertas en el máster</h1>
+				<div class="block-content">
+					<ul>
+						<li>Web: HTML5 / JavaScript/ jQuery / ASP .net MVC 4 / Knockout / Silverlight 5</li>
+						<li>Diseño: Expression Blend</li>
+						<li>Gestión de ciclo de vida: Team Foundation Server</li>
+						<li>Lenguajes: C#, Java, Javascript</li>
+						<li>Arquitecturas/IOC: MVVM Light Toolkit, MEF, Ninject</li>
+						<li>Testing: Visual Studio for Testers, NUnit, MbUnit, xUnit, Pex, Moq, Rhino Mocs</li>
+						<li>IDE: Visual Studio 2011, Eclipse, Expression Blend</li>
+						<li>Dispositivos móviles y tablets: Android, Windows Phone 7, Win RT</li>
+						<li>Bases de datos: SQL Server, My SQL</li>
+						<li>ORM: ADO. NET Entity Framework 4.x + LINQ</li>
+						<li>Cloud computing: Azure, Amazon</li>
+					</ul>
+				</div>
+		</div>
+		<div class="block">
+            <div class="block-content techLogos">
+                <a href="http://code.google.com/p/moq"><img src="logos/tecno/moq.png"></a>
 				<a href="http://www.asp.net/mvc"><img src="logos/tecno/mvc.png"></a>
 				<a href="http://www.mysql.com/"><img src="logos/tecno/mysql.png"></a>
 				<a href="http://hibernatingrhinos.com/open-source/rhino-mocks"><img src="logos/tecno/rhino.png"></a>
@@ -53,11 +73,50 @@ EN"
 				<a href="http://www.microsoft.com/es-es/sqlserver"><img src="logos/tecno/sqlserver.png"></a>
 				<a href="http://msdn.microsoft.com/en-us/vstudio/ff637362"><img src="logos/tecno/TFS2010.png"></a>
 				<a href="http://www.microsoft.com/spain/visualstudio"><img src="logos/tecno/vs.png"></a>
-				<a href="http://www.microsoft.com/windowsphone"><img src="logos/tecno/wp7.png"></a>
-			</div>
-		</td>
+				<a href="http://www.microsoft.com/windowsphone"><img src="logos/tecno/wp7.png"></a>      
+            </div>
+        </div>
+	</div>
 	</tr>
+	</td>
 	</table>
+</div>
+
+<div id="footer">
+            <div id="footer-content">
+                <div class="right triptych">
+                    <h2>Tríptico de la III Edición</h2>
+                    <a href="images/triptico.png" title="Tríptico del III Edición - Anverso"><img src="images/triptico-small.jpg" alt="Tríptico del III Edición - Anverso" /></a>
+                    <a href="images/triptico2.png" title="Tríptico del III Edición - Reverso"><img src="images/triptico2-small.jpg" alt="Tríptico del III Edición - Anverso" /></a>
+                </div>
+                
+                <div class="block">
+                    <h2>Contacto</h2>
+                    <ul>
+                        <li><strong>Antonio J. Nebro</strong></li>
+                        <li><strong>Teléfono:</strong> 952 133 310</li>
+                        <li><strong>E-mail:</strong> <a href="mailto:antonio@lcc.uma.es" title="Enviar email a Antonio J. Nebro">Antonio J. Nebro</a></li>
+                        <li><strong>Dirección:</strong> Departamento de Lenguajes y Ciencias de la Computación. Universidad de Málaga</li>
+                        <li class="social"><strong>Síguenos en:</strong>
+                            <a href="http://www.facebook.com/riatec" title="RIAtec en Facebook"><img src="images/icon-facebook.png" alt="RIAtec en Facebook"/></a>
+                            <a href="http://twitter.com/#!/RIAtec" title="RIAtec en Twitter"><img src="images/icon-twitter.png" alt="RIAtec en Twitter"/></a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="copyright clearfix">
+                    <div class="right">© Copyright RIAtec. All Rights Reserved.</div>
+                    
+                    <div class="block">
+                        <a href="http://validator.w3.org/check?uri=referer" title="XHTML 1.0 Strict Válido"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="XHTML 1.0 Strict Válido" /></a>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS Válido"><img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS Válido" /></a>
+                    </div>                   
+                </div>
+  
+            </div>
+            
+        </div>
+		
 	
 </body>
 </html>

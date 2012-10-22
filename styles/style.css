@@ -53,6 +53,7 @@ li {
     width: 940px;
     margin: auto;
 }
+
 #header {
     background-color: #262c31;
     border-bottom: 7px solid #1f7e71;
@@ -241,8 +242,6 @@ color:rgb(238,245,240);
 text-align:center;
 }
 
-
-
 .border
 {
 border-top: 1px solid #0d4847;
@@ -253,16 +252,21 @@ border-top: 1px solid #0d4847;
 background-color:rgb(238,245,240);
 }
 
-.derecha
-{
-float:right;
-padding:20px;
-width:32%;
+
+
+.wide{
+width:100%;
 }
 
 .redondeado
 {
 border-top:1px solid #0d4847; 
+}
+
+.techLogos a img
+{
+    margin:14px;
+    text-align: center;
 }
 
 
