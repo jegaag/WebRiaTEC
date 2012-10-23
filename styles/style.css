@@ -158,6 +158,29 @@ li {
     float: left;
     width: 30%;
 }
+
+/** Empleo **/
+#main-content-empleo {
+    padding-top: 20px;
+}
+
+#main-content-empleo  .block-content {
+    padding: 10px 10px 20px 10px;
+    background: transparent url("../images/bg-block.png") no-repeat top center;
+}
+
+#main-content-empleo h1 {
+    color: #0d4847;
+    padding-bottom: 5px;
+	border-bottom:3px solid #0d4847;    
+}
+
+#main-content h2 {
+    color: #0d4847;
+    padding: 8px 0 8px 0;
+	margin-left:30px;
+}
+
     
 
 
@@ -256,7 +279,10 @@ background-color:rgb(238,245,240);
 padding:10px;
 }
 
-
+.left
+{
+float:left;
+}
 
 .wide{
 width:100%;
@@ -272,6 +298,21 @@ border-radius: 10px 10px 0 0;
 {
     margin:14px;
     text-align: center;
+}
+
+.small
+{
+width:430px;
+}
+
+.left
+{
+float:left;
+}
+
+.right
+{
+float:right;
 }
 
 
